@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://ba34h3fg38isn"]
+
+[ext_resource type="Texture2D" uid="uid://c8avdj5qs1klg" path="res://assets/circle_1.png" id="1_dsj3i"]
+[ext_resource type="Script" path="res://elements/ui/stage_counter/stage_counter.gd" id="1_fdumb"]
+[ext_resource type="Texture2D" uid="uid://fj11q3al6t66" path="res://assets/boss_ico.png" id="2_pirfx"]
+
+[node name="StageCounter" type="HBoxContainer"]
+size_flags_horizontal = 3
+alignment = 1
+script = ExtResource("1_fdumb")
+
+[node name="Circle" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_dsj3i")
+stretch_mode = 5
+
+[node name="Circle2" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_dsj3i")
+stretch_mode = 5
+
+[node name="Circle3" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_dsj3i")
+stretch_mode = 5
+
+[node name="Circle4" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_dsj3i")
+stretch_mode = 5
+
+[node name="Circle5" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_dsj3i")
+stretch_mode = 5
+
+[node name="BossFigth" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_pirfx")
+stretch_mode = 5

@@ -1,0 +1,23 @@
+[gd_scene load_steps=7 format=3 uid="uid://dtx18ibt6t6fk"]
+
+[ext_resource type="PackedScene" uid="uid://dv6ekaauf31gl" path="res://elements/targets/target/target.tscn" id="1_6l4cm"]
+[ext_resource type="Script" path="res://elements/targets/target_accelerate/target_accelerate.gd" id="2_1ucex"]
+[ext_resource type="Texture2D" uid="uid://be686yqc5ixj1" path="res://assets/target2.png" id="2_tn6li"]
+[ext_resource type="Texture2D" uid="uid://b84dqln6gi38d" path="res://assets/target2_2.png" id="3_3ogsy"]
+[ext_resource type="Texture2D" uid="uid://cyn7aw1mexocv" path="res://assets/target2_1.png" id="4_5abt2"]
+[ext_resource type="Texture2D" uid="uid://lg4fmgcuvcxw" path="res://assets/target2_3.png" id="5_2k4jm"]
+
+[node name="TargetAccelerate" instance=ExtResource("1_6l4cm")]
+script = ExtResource("2_1ucex")
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_tn6li")
+
+[node name="TargetParticles2D" parent="." index="3"]
+texture = ExtResource("4_5abt2")
+
+[node name="TargetParticles2D2" parent="." index="4"]
+texture = ExtResource("3_3ogsy")
+
+[node name="TargetParticles2D3" parent="." index="5"]
+texture = ExtResource("5_2k4jm")

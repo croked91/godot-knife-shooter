@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://wltc2rrofgt5"]
+
+[ext_resource type="PackedScene" uid="uid://bnrfxh3fhy2yu" path="res://elements/knife_shooter/knife_shooter.tscn" id="1_ne2dc"]
+[ext_resource type="Script" path="res://scenes/game/game.gd" id="1_ntg3e"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_ntg3e")
+
+[node name="knife_shooter" parent="." instance=ExtResource("1_ne2dc")]
+position = Vector2(360, 970)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(360, 541)
+
+[node name="TargetPosition" type="Marker2D" parent="."]
+position = Vector2(360, 392)

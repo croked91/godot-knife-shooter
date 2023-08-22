@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2dyrpsh7ymr5"]
+
+[ext_resource type="Script" path="res://elements/ui/knives_counter/knives_counter.gd" id="1_p5nvn"]
+
+[node name="KnivesCounter" type="VBoxContainer"]
+mouse_filter = 2
+alignment = 2
+script = ExtResource("1_p5nvn")
